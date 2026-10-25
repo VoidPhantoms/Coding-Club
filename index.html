@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090018">
+  <meta name="description" content="VoidPhantoms — a futuristic coding club for builders, hackers and creators.">
+  <title>VoidPhantoms — Code Beyond Reality</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+  <canvas id="space"></canvas>
+
+  <header class="nav glass">
+    <a class="brand" href="#home" aria-label="VoidPhantoms home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>VOID<span>PHANTOMS</span></span>
+    </a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#arsenal">Arsenal</a>
+      <a href="#projects">Projects</a>
+      <a href="#join">Join</a>
+    </nav>
+    <a class="nav-cta magnetic" href="#join">Enter the Void <span>↗</span></a>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-grid"></div>
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><i></i> CODING CLUB / 2026</div>
+        <h1>Code beyond<br><em>reality.</em></h1>
+        <p class="hero-sub">A next-generation coding collective where ideas become products, games, AI experiments and digital worlds.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary magnetic" href="#join">Join VoidPhantoms <span>→</span></a>
+          <a class="btn btn-ghost" href="#projects">Explore projects</a>
+        </div>
+        <div class="hero-meta">
+          <span><b>01</b> BUILD</span>
+          <span><b>02</b> BREAK</span>
+          <span><b>03</b> REBUILD</span>
+        </div>
+      </div>
+
+      <div class="hero-panel glass tilt reveal" data-tilt="10">
+        <div class="panel-top"><span>VOID_CORE</span><span class="status"><i></i> ONLINE</span></div>
+        <div class="terminal">
+          <div><span class="dim">$</span> initialize_void()</div>
+          <div><span class="cyan">›</span> loading creativity... <b>100%</b></div>
+          <div><span class="cyan">›</span> developers detected: <b>∞</b></div>
+          <div><span class="pink">›</span> reality.exe <b>reimagined</b></div>
+          <div class="terminal-cursor">█</div>
+        </div>
+        <div class="core-ring">
+          <div class="core-dot"></div>
+          <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+        </div>
+      </div>
+
+      <div class="scroll-cue"><span></span> SCROLL TO DESCEND</div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">01 / WHO WE ARE</span>
+          <h2>We don't just<br><em>write code.</em></h2>
+        </div>
+        <p>VoidPhantoms is a community for curious builders. Learn by making, collaborate without ego, and ship things you're proud to put your name on.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass feature-card tilt reveal" data-tilt="8">
+          <span class="num">01</span><div class="feature-icon">⌘</div>
+          <h3>Build Together</h3>
+          <p>Hack nights, pair programming and project squads that turn rough ideas into working prototypes.</p>
+          <span class="card-line"></span>
+        </article>
+        <article class="glass feature-card tilt reveal" data-tilt="8">
+          <span class="num">02</span><div class="feature-icon">◈</div>
+          <h3>Explore Everything</h3>
+          <p>Web, AI, game dev, cybersecurity, creative coding and whatever new technology catches your curiosity.</p>
+          <span class="card-line"></span>
+        </article>
+        <article class="glass feature-card tilt reveal" data-tilt="8">
+          <span class="num">03</span><div class="feature-icon">✦</div>
+          <h3>Ship for Real</h3>
+          <p>Deploy projects, publish experiments and build a portfolio that proves what you can actually create.</p>
+          <span class="card-line"></span>
+        </article>
+      </div>
+    </section>
+
+    <section id="arsenal" class="section arsenal">
+      <div class="arsenal-image reveal">
+        <img src="assets/city-bg-1.jpg" alt="Futuristic neon city">
+        <div class="image-overlay"></div>
+        <div class="image-label glass">THE VOID IS <b>LIMITLESS</b></div>
+      </div>
+      <div class="arsenal-copy reveal">
+        <span class="kicker">02 / OUR ARSENAL</span>
+        <h2>Tools are just<br><em>the beginning.</em></h2>
+        <p>Pick a stack. Learn the fundamentals. Then bend the rules until something new appears.</p>
+        <div class="stack-list">
+          <span class="stack magnetic">JavaScript</span>
+          <span class="stack magnetic">Python</span>
+          <span class="stack magnetic">React</span>
+          <span class="stack magnetic">Node.js</span>
+          <span class="stack magnetic">AI / ML</span>
+          <span class="stack magnetic">Godot</span>
+          <span class="stack magnetic">Three.js</span>
+          <span class="stack magnetic">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">03 / THE ARCHIVE</span>
+          <h2>Built inside<br><em>the Void.</em></h2>
+        </div>
+        <p>Every project starts as a weird idea. These are the kinds of things we want to see more of.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card large tilt reveal" data-tilt="6">
+          <img src="assets/city-bg-2.jpg" alt="Neon futuristic city">
+          <div class="project-shade"></div>
+          <div class="project-content">
+            <span>01 / CREATIVE TECH</span><h3>NEON//CITY</h3><p>Interactive digital world</p>
+            <a href="#join">View concept ↗</a>
+          </div>
+        </article>
+        <article class="project-card glass tilt reveal" data-tilt="8">
+          <div class="project-icon">AI</div>
+          <span>02 / INTELLIGENCE</span><h3>PHANTOM<br>ASSISTANT</h3>
+          <p>A personal AI playground for experiments, automation and voice interfaces.</p>
+          <a href="#join">Explore ↗</a>
+        </article>
+        <article class="project-card glass tilt reveal" data-tilt="8">
+          <div class="project-icon">⌬</div>
+          <span>03 / GAMES</span><h3>VOID<br>REALMS</h3>
+          <p>Small games, strange mechanics and polished prototypes made by club members.</p>
+          <a href="#join">Explore ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="join" class="section join">
+      <div class="liquid liquid-one"></div>
+      <div class="liquid liquid-two"></div>
+      <div class="join-card glass reveal">
+        <div class="join-symbol"><span>V</span></div>
+        <span class="kicker">04 / YOUR TURN</span>
+        <h2>Ready to enter<br><em>the Void?</em></h2>
+        <p>Bring your curiosity. Bring your weirdest idea. We'll bring the caffeine and the code.</p>
+        <a class="btn btn-primary magnetic" href="mailto:voidphantoms@example.com">Join the Club <span>→</span></a>
+        <small>Replace the email above with your club's real contact address.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand">VOID<span>PHANTOMS</span></div>
+    <span>© 2026 VoidPhantoms. Built beyond the ordinary.</span>
+    <div class="socials"><a href="#home">IG</a><a href="#home">GH</a><a href="#home">DC</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
